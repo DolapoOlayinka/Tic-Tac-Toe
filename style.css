@@ -1,0 +1,20 @@
+.row{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+}
+  
+.first-row, .second-row, .third-row {
+    flex-wrap: wrap;
+    border: 15px solid white;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(173, 217, 231);
+    font-size: 80px;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
